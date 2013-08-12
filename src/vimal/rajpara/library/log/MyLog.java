@@ -1,4 +1,4 @@
-package om.we7aura.library.log;
+package vimal.rajpara.library.log;
 
 public class MyLog {
 	// TODO set false in below variable "LOG" for market upload
