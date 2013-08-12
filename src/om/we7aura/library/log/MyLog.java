@@ -10,6 +10,11 @@ public class MyLog {
 	public static void setLOG(boolean lOG) {
 		LOG = lOG;
 	}
+	
+	public static void a(String tag, String string) {
+        android.util.Log.i(tag, string);
+    }
+	
 	public static void i(String tag, String string) {
         if (LOG) android.util.Log.i(tag, string);
     }
