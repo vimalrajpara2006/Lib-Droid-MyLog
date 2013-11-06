@@ -2,7 +2,7 @@ package vimal.rajpara.library.log;
 
 public class MyLog {
 	// TODO set false in below variable "LOG" for market upload
-    static boolean LOG = true;
+    public static boolean LOG = true;
 
     public static boolean isLOG() {
 		return LOG;
